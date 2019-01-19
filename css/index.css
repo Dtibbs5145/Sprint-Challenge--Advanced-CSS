@@ -1,3 +1,7 @@
+:hover {
+  background: #F1F1F1;
+  color: #5E6164;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -235,6 +239,21 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+  background-color: #22283A;
+  color: #F6F7F8;
+  border: 1px solid #23293B;
+  cursor: pointer;
+  font-size: 20px;
 }
 .home .walk .walk-img {
   width: 46%;

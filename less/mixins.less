@@ -2,11 +2,11 @@
 
   // button
   
-    .btn() {
+    .center() {
         display: flex;
         justify-content: center;
         align-items: center;
-      
+    }
       
       .border-radius(@radius) {
         -webkit-border-radius: @radius;
@@ -14,13 +14,13 @@
                 border-radius: @radius;
         }
       
-      .button-creator(@width, @height, @bg-color, @font-color, @font-size) {
+.button-creator(@width, @height, @bg-color, @font-color, @font-size) {
         .border-radius(15px);
         .center;
         width: @width;
         height: @height;
-        background-color: @nav-bg;
-        color: @btn-bg-color;
+        background-color: @bg-color;
+        color: @font-color;
         border: 1px solid @ebony-clay;
         cursor: pointer;
         font-size: @font-size;
@@ -28,10 +28,8 @@
     
         
         &:hover {
-          background: @white;
+          background: @sea-shell;
           color: @shuttle-gray;
         }
-    }
 
 // mobile
-
